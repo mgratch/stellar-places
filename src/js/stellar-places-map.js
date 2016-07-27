@@ -123,6 +123,7 @@
 
                     google.maps.event.addListener(
                         map, 'resize', function () {
+                            var infoWindow = new google.maps.InfoWindow();
                             width = $el.width();
                             infoWindow.close();
                         }
